@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body {
+    font-family:'Montserrat';
+}
+
+header {
+    background-image: url("https://i.ibb.co/kZ4bH6p/Rectangle-1-1.png");
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.nav-link {
+    font-family: 'Montserrat';
+    font-size: 32px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+
+    font-weight: 1100;
+    transition: 0.5s linear;
+    text-shadow: 6px 3px 0px #674c80;
+}
+
+.logo1 {
+    font-family: 'Fugaz One';
+    font-size: 64px;
+    color: #FFFFFF;
+}
+
+.logo1:hover {
+    transition: 0.5s linear;
+    text-shadow: 6px 3px 0px #674c80;
+}
+
+.info {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  padding: 30px;
+  flex-wrap: wrap;
+   width: 100%; 
+}
+
+.text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.title {
+  background-color: #736CAE;
+    font-family: 'Fugaz One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+  padding: 12px 20px;
+  border-radius: 10px 10px 0 0;
+  margin: 0;
+  width: 400px;
+}
+
+.description {
+  background-color: #736CAE;
+  margin: 0;
+  max-width: 1000px;
+  border-radius: 0 0 15px 15px;
+    padding: 15px 100px 15px 15px;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 25px;
+}
+
+.image-block {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+ 
+  margin-top: 50px;
+  flex-shrink: 0;
+}
+
+.image-block img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.image-block {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto; /* за замовчуванням — центровано */
+  flex-shrink: 0;
+}
+
+@media (max-width: 1000px) {
+  .image-block {
+    margin: 30px auto 0 auto;
+  }
+}
+
+@media (min-width: 1310px) {
+  .image-block {
+    margin-left: -80px;
+    margin-top: 50px;
+    margin-right: 0;
+  }
+}
+
+
+.characters h1 {
+   color: white;
+   background-color: #736CAE;
+    font-size: 30px;
+    padding: 4px 5px 4px 5px;
+}
+
+
+.characters-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+  background-color: #f0f0f0;
+}
+
+
+.character-card {
+  width: 90%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  transition: background-image 0.3s ease;
+}
+
+.card-1 {
+  background-image: url("https://i.ibb.co/ns904ckg/image.png");
+}
+.card-1:hover {
+  background-image: url("https://i.ibb.co/yF5S7CGD/Group-23.png");
+}
+
+.card-2 {
+  background-image: url("https://i.ibb.co/9mRVqKQK/image.png");
+}
+.card-2:hover {
+  background-image: url("https://i.ibb.co/jP2M2Yq6/Group-24.png");
+}
+
+.card-3 {
+  background-image: url("https://i.ibb.co/39yrcWFz/image.png");
+}
+.card-3:hover {
+  background-image: url("https://i.ibb.co/Z6B1mvxH/image.png");
+}
+
+.card-4 {
+  background-image: url("https://i.ibb.co/WNTyGQ5D/image.png");
+}
+.card-4:hover {
+  background-image: url("https://i.ibb.co/q3k7h9NB/Group-26.png");
+}
+
+.card-5 {
+  background-image: url("https://i.ibb.co/ycDX3f1D/image.png");
+}
+.card-5:hover {
+  background-image: url("https://i.ibb.co/TM1MnCjH/Group-27.png");
+}
+
+.card-6 {
+  background-image: url("https://i.ibb.co/3mFH8LS1/image.png");
+}
+.card-6:hover {
+  background-image: url("https://i.ibb.co/PGLDhH6T/Group-28.png");
+}
+
+.card-7 {
+  background-image: url("https://i.ibb.co/SDwD74hT/image.png");
+}
+
+.Mondshtat {
+background-image: url("https://i.ibb.co/3Htcg72/image.png") ;
+background-size: cover;
+background-repeat: no-repeat;
+padding: 5px;
+margin: 5px 0px 5px 2px;
+}
+
+.Mondshtat p{
+width: 80%;
+}
+
+.Li_Yue {
+background-image: url("https://i.ibb.co/Jj4jnDv9/image.png") ;
+background-size: cover;
+background-repeat: no-repeat;
+padding: 5px;
+margin: 5px 0px 5px 2px;
+}
+
+.Li_Yue p{
+width: 80%;
+}
+
+.Inadzuma {
+background-image: url("https://i.ibb.co/Zpy2rCjM/image.png") ;
+background-size: cover;
+background-repeat: no-repeat;
+padding: 5px;
+margin: 5px 0px 5px 2px;
+}
+
+.Inadzuma p{
+width: 80%;
+}
+
+.Sumeru {
+background-image: url("https://i.ibb.co/jvTJ7QLN/Group-29.png" ) ;
+background-size: cover;
+background-repeat: no-repeat;
+padding: 5px;
+margin: 5px 0px 5px 2px;
+}
+
+.Sumeru p{
+width: 80%;
+}
+
+.Fontaine {
+background-image: url("https://i.ibb.co/6pwGyq8/image.png") ;
+background-size: cover;
+background-repeat: no-repeat;
+padding: 5px;
+margin: 5px 0px 5px 2px;
+}
+
+.Fontaine p{ 
+width: 80%;
+}
+
+.Natlan {
+background-image: url("https://i.ibb.co/N6RJ7s5H/image.png") ;
+background-size: cover;
+background-repeat: no-repeat;
+padding: 5px;
+margin: 5px 0px 5px 2px;
+}
+
+.Natlan p{ 
+width: 80%;
+}
+
+.Cnegnaja {
+  background-color: #5a6778;
+  padding: 5px;
+  margin: 5px 0px 5px 2px;
+}
+
+.blocks{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.text1 {
+   color: white;
+   background-color: #736CAE;
+    font-size: 30px;
+    padding: 4px 5px 4px 5px;
+    text-align: center;
+    width: 200px;
+}
+.gides{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text2 {
+   color: white;
+   background-color: #736CAE;
+    font-size: 30px;
+    padding: 4px 5px 4px 5px;
+    text-align: center;
+    width: 200px;
+}
+
+footer {
+  background-image: url("https://i.ibb.co/KzxvMh1C/image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+.text-container2{
+  display: flex;
+}
+.text-container2 img{
+  width: 60px;
+}
+.text-container p {
+background: rgba(255, 255, 255, 0.5);
+ margin: 5px;
+ padding: 10px;
+ border-radius: 5px;
+ border: 3px solid #A9A2A2;
+ width: fit-content;
+
+}
+
+.text-container1 p {
+background: rgba(255, 255, 255, 0.5);
+ margin: 5px;
+ padding: 10px;
+ border-radius: 5px;
+ border: 3px solid #A9A2A2;
+ width: fit-content;
+font-size: 30px;
+}
+
+.video{
+  width: 300px;
+  text-align: center;
+}
+
+.all_video{
+  display: flex;
+  margin: 50px;
+  gap: 50px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+
