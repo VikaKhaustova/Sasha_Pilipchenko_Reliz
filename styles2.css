@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body {
+    font-family:'Montserrat';
+}
+
+header {
+    background-image: url("https://i.ibb.co/kZ4bH6p/Rectangle-1-1.png");
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.nav-link {
+    font-family: 'Montserrat';
+    font-size: 32px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+
+    font-weight: 1100;
+    transition: 0.5s linear;
+    text-shadow: 6px 3px 0px #674c80;
+}
+
+.logo1 {
+    font-family: 'Fugaz One';
+    font-size: 64px;
+    color: #FFFFFF;
+}
+
+.logo1:hover {
+    transition: 0.5s linear;
+    text-shadow: 6px 3px 0px #674c80;
+}
+.pers_1{
+    background-image: url("https://i.ibb.co/jkvcBJQb/Rectangle-28.png" );
+    background-size: cover;
+    min-height: 350px;
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+footer {
+  background-image: url("https://i.ibb.co/KzxvMh1C/image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+.text-container2{
+  display: flex;
+}
+.text-container2 img{
+  width: 60px;
+}
+.text-container p {
+background: rgba(255, 255, 255, 0.5);
+ margin: 5px;
+ padding: 10px;
+ border-radius: 5px;
+ border: 3px solid #A9A2A2;
+ width: fit-content;
+
+}
+
+.text-container1 p {
+background: rgba(255, 255, 255, 0.5);
+ margin: 5px;
+ padding: 10px;
+ border-radius: 5px;
+ border: 3px solid #A9A2A2;
+ width: fit-content;
+font-size: 30px;
+}
+
+.pers:hover img{
+    opacity: 0;
+}
+
+.pers_img1:hover {
+    background-image: url("https://i.ibb.co/RTqkWJXW/Group-33.png" );
+    width: 635px;
+    height: 390px;
+}
+
+.pers_img2:hover {
+    background-image: url("https://i.ibb.co/4RdBWpqm/image.png" );
+    width: 635px;
+    height: 390px;
+}
+
+.pers_img3:hover {
+    background-image: url("https://i.ibb.co/cSYzD79k/image.png");
+    width: 635px;
+    height: 390px;
+}
+
+.pers_2{
+    background-image: url("https://i.ibb.co/jkvcBJQb/Rectangle-28.png" );
+    background-size: cover;
+    min-height: 350px;
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pers_img4:hover {
+    background-image: url("https://i.ibb.co/nqCHYxNG/image.png");
+    width: 635px;
+    height: 390px;
+}
