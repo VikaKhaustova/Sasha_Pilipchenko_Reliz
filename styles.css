@@ -207,6 +207,7 @@ background-size: cover;
 background-repeat: no-repeat;
 padding: 5px;
 margin: 5px 0px 5px 2px;
+width: 100%;
 }
 
 .Mondshtat p{
@@ -219,6 +220,7 @@ background-size: cover;
 background-repeat: no-repeat;
 padding: 5px;
 margin: 5px 0px 5px 2px;
+width: 100%;
 }
 
 .Li_Yue p{
@@ -231,6 +233,7 @@ background-size: cover;
 background-repeat: no-repeat;
 padding: 5px;
 margin: 5px 0px 5px 2px;
+width: 100%;
 }
 
 .Inadzuma p{
@@ -243,6 +246,7 @@ background-size: cover;
 background-repeat: no-repeat;
 padding: 5px;
 margin: 5px 0px 5px 2px;
+width: 100%;
 }
 
 .Sumeru p{
@@ -255,6 +259,7 @@ background-size: cover;
 background-repeat: no-repeat;
 padding: 5px;
 margin: 5px 0px 5px 2px;
+width: 100%;
 }
 
 .Fontaine p{ 
@@ -267,6 +272,7 @@ background-size: cover;
 background-repeat: no-repeat;
 padding: 5px;
 margin: 5px 0px 5px 2px;
+width: 100%;
 }
 
 .Natlan p{ 
@@ -277,6 +283,7 @@ width: 80%;
   background-color: #5a6778;
   padding: 5px;
   margin: 5px 0px 5px 2px;
+  width: 100%;
 }
 
 .blocks{
