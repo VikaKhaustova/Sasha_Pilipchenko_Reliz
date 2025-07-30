@@ -153,6 +153,7 @@ nav {
   background-position: center;
   border-radius: 12px;
   transition: background-image 0.3s ease;
+    cursor: pointer;
 }
 
 .card-1 {
