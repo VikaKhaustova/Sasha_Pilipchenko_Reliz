@@ -57,6 +57,7 @@ nav {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    
 }
 
 
@@ -118,9 +119,9 @@ font-size: 30px;
 }
 
 .pers_2{
-    background-image: url("https://i.ibb.co/jkvcBJQb/Rectangle-28.png" );
+    background-image: url("https://i.ibb.co/n88M8jmT/image.png" );
     background-size: cover;
-    min-height: 350px;
+    min-height: 400px;
     margin: 50px 0;
     display: flex;
     flex-wrap: wrap;
@@ -129,7 +130,20 @@ font-size: 30px;
 }
 
 .pers_img4:hover {
-    background-image: url("https://i.ibb.co/nqCHYxNG/image.png");
+    background-image: url("https://i.ibb.co/ZQq4JyG/Group-39.png" );
     width: 635px;
     height: 390px;
 }
+
+.pers_img5:hover {
+    background-image: url("https://i.ibb.co/3xPc61v/Group-41.png" );
+    width: 635px;
+    height: 390px;
+}
+
+.pers_img6:hover {
+    background-image: url("https://i.ibb.co/GfTBYcTb/Group-42.png");
+    width: 635px;
+    height: 390px;
+}
+
